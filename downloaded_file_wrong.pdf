@@ -1,0 +1,1062 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+
+
+<!--<![endif]-->
+<head>
+    <!-- Meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="keywords" content="Court Records Search,Court Documents" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta id="MetaDescription" name="DESCRIPTION" content="Broward County Clerk of Circuit Court" />
+    <meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2024 by Broward County Clerk of Circuit Court" />
+    <meta id="MetaAuthor" name="AUTHOR" content="Broward County Clerk of Circuit Court" />
+    <title> - Broward County Clerk of Courts</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/Web2/Content/assets/img/favicon.ico">
+    <link href="/Web2/Content/assets/css/css3-gmail-style.css" rel="stylesheet" />
+    <script src="/Web2/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script>
+
+    <script src="/Web2/bundles/jquery?v=evsdjeysOuM7iR7IO1h1kG2tLam8q5YDTTJKKbuRtXQ1"></script>
+
+    <script src="/Web2/bundles/bootstrap?v=T0QlPGQ2uPv8HuXO-ExdjHzc-9tqXYJ3GQARCSYdcJQ1"></script>
+
+    <link href="/Web2/bundles/css?v=qC3WxC5qSCjoUqSa7xysjCvBfZ7dSMZTgUEEvGS97-41" rel="stylesheet"/>
+
+    <script src="/Web2/bundles/Site?v=RGNOL9pylaE4H2UHkGterlcW9xqagyr1A3h8oN6y7jo1"></script>
+
+    <link href="/Web2/Content/toastr.css" rel="stylesheet" />
+    <script src="/Web2/Scripts/toastr.js"></script>
+
+    <link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
+
+    <link href="/Web2/Content/jquery-ui.css" rel="stylesheet" />
+
+    <script src="/Web2/Scripts/jquery-ui.js"></script>
+
+    <link href="/Web2/Content/assets/css/kendo.blueopal.min.css" rel="stylesheet" />
+    <link href="/Web2/Content/assets/css/kendo.common.min.css" rel="stylesheet" />
+    <link href="/Web2/Content/assets/css/kendo.dataviz.default.min.css" rel="stylesheet" />
+    <link href="/Web2/Content/assets/css/kendo.dataviz.min.css" rel="stylesheet" />
+
+    <script src="/Web2/Scripts/jszip.min.js"></script>
+    <script src="/Web2/Scripts/kendo.all.min.js"></script>
+
+    <link href="/Web2/Content/footable.core.css" rel="stylesheet" />
+    <link href="/Web2/Content/footable.metro.css" rel="stylesheet" />
+    <script src="/Web2/Scripts/footable.js"></script>
+    <script src="/Web2/Scripts/footable.sort.js"></script>
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="/Web2/Content/assets/css/style.css?v=1.2">
+    <link rel="stylesheet" href="/Web2/Content/assets/css/shop.style.css?v=1.2">
+
+    <!-- CSS Header and Footer -->
+    <link rel="stylesheet" href="/Web2/Content/assets/css/headers/header-default.css?v=1.1">
+    <link rel="stylesheet" href="/Web2/Content/assets/css/footers/footer-default.css">
+
+    <!-- CSS Implementing Plugins -->
+    
+    <link rel="stylesheet" href="/Web2/Content/assets/plugins/font-awesome/css/font-awesome.min.css?v=1.1">
+    
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="/Web2/Content/assets/css/custom.css?v=1.2">
+    <link rel="stylesheet" href="/Web2/Content/assets/css/tabPanel.css?v=1.1">
+    <link rel="stylesheet" href="/Web2/Content/assets/css/click-panel.css" />
+    <link href="/Web2/Content/assets/css/bootstrap-dialog.min.css" rel="stylesheet" />
+
+    <!--Form Validation files-->
+    <link href="/Web2/Content/FormValidations/formValidation.min.css" rel="stylesheet" />
+    <script src="/Web2/Content/FormValidations/formValidation.min.js"></script>
+    <script src="/Web2/Content/FormValidations/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Web2/Content/assets/plugins/back-to-top.js"></script>
+
+    <!--jquery steps files-->
+    <link href="/Web2/Content/assets/plugins/jquery-steps/css/custom-jquery.steps.css?v=1.1" rel="stylesheet" />
+    <script src="/Web2/Content/assets/plugins/jquery-steps/build/jquery.steps.min.js"></script>
+
+    <!--Base64 encoding-->
+    <script src="/Web2/Scripts/base64.js"></script>
+
+    <!-- jQuery Cookie Plugin-->
+    <script src="/Web2/Scripts/jquery_cookie.js"></script>
+
+    <!-- Clickable Panels -->
+    <script src="/Web2/Content/assets/js/click-panel.js"></script>
+
+    <!-- For Modal Bootstrap Alert Messages -->
+    <script src="/Web2/Content/assets/js/bootstrap-dialog.min.js"></script>
+
+    <!-- Browser compatiblity -->
+    <link href="/Web2/Content/assets/css/jquery.reject.css" rel="stylesheet" />
+    <script src="/Web2/Scripts/jquery.browser.min.js"></script>
+    <script src="/Web2/Scripts/jquery.reject.js"></script>
+    <!--UserWay Accessibility Widget-->
+    <script>
+        (function (d) {
+            var s = d.createElement("script");
+            s.setAttribute("data-account", "Q4Rzv4GKir");
+            s.setAttribute("src", "https://cdn.userway.org/widget.js");
+            (d.body || d.head).appendChild(s);
+        })(document)</script>
+
+    <!--Redirect for external URLs-->
+    <script>
+        $(window).on('load', function () {
+            $.expr[':'].external = function (a) {
+                var PATTERN_FOR_EXTERNAL_URLS = /^(\w+:)?\/\//;
+                var href = $(a).attr('href');
+                if (href !== undefined && href.toUpperCase().indexOf('.BROWARDCLERK.') == -1 && href.toUpperCase().indexOf('LOCALHOST') == -1) {
+                    return href !== undefined && href.search(PATTERN_FOR_EXTERNAL_URLS) !== -1;
+                }
+            };
+            $("a:external").addClass("ext_link");
+            $(function () {
+                $('a.ext_link').click(function (e) {
+                    var RedirectURL = $(this).attr('href');
+                    var CurrentPageURL = window.location.href;
+                    $.ajax({
+                        type: 'POST',
+                        url: '../Home/ExternalRedirectSession',
+                        data: { 'redirectURL': RedirectURL, 'currentpageURL': CurrentPageURL },
+                        success: function (response)
+                        {
+                            if (response == true)
+                            {
+                                window.open('/Web2/Home/ExternalRedirect', "_blank");
+                            }
+                            else
+                                if (response == error)
+                                {
+                                    window.open('/Web2/Home', "_blank");
+                                }
+                        }
+                    })
+                    return false;
+                });
+
+            });
+        });
+    </script>
+
+
+    <!-- BEGIN timeout alerts here -->
+    <script type="text/javascript">
+
+        var timeOutActive =  true;
+        var logoutUrl = 'https://www.browardclerk.org//Web2/Account/LogOut/?reason=sessiontimeout';
+
+        var sessionTimeoutTimer
+
+
+        function CheckSession() {
+
+            var sUserID = '';
+
+
+            if (!$('#loginForm').length )
+            {
+
+                if (timeOutActive == true) {
+                    var url = '/Web2/Session/GetRemainingSessionTimeout';
+                    $.ajax({
+                        type: "POST",
+                        url: url,
+                        data: {},
+                        success: function (result) {
+
+                            //alert('Session:'+ result.SessionTimeoutMinutes + '   Warning:' + result.SessionTimeWarningMinutes + '   Remaining:' + result.RemainingSessionTimeMinutes)
+                            //$('#sessionButton').attr('value', 'Session:'+ result.SessionTimeoutMinutes + '   Warning:' + result.SessionTimeWarningMinutes + '   Remaining:' + result.RemainingSessionTimeMinutes);
+
+                            sessionTimeoutTimer = setTimeout("CheckSession()", ((result.RemainingSessionTimeMinutes - result.SessionTimeWarningMinutes) * 60000) + 1000);
+
+                            if (result.RemainingSessionTimeMinutes == 0)
+                            {
+
+                                if (sUserID == "")
+                                {
+                                    window.location = "https://www.browardclerk.org"; //Clerk Home Page
+                                }
+                                else
+                                {
+                                    window.location = logoutUrl;
+                                }
+
+                            }
+
+                            if ( result.RemainingSessionTimeMinutes <= result.SessionTimeWarningMinutes)
+                            {
+                                $('#timeout').modal('show');
+                            }
+                            else
+                            {
+                                $('#timeout').modal('hide');
+                            }
+
+                        },
+
+                        error: function (result) {
+                            // alert("Error");
+                        }
+                    });
+
+                }
+
+            }
+
+        };
+
+
+    </script>
+    <!-- END timeout alerts here -->
+
+
+    <style>
+        .loginbar a.icon-shopping-cart:hover {
+            TEXT-DECORATION: none;
+        }
+
+        #lblCartCount {
+            font-size: 12px;
+            background: #808080;
+            color: #fff;
+            padding: 0 5px;
+            vertical-align: top;
+        }
+
+        .dropdown {
+            position: relative;
+        }
+
+        [tabindex="-1"] {
+            outline: none;
+        }
+
+        .has-spinner .fa-spinner {
+            opacity: 0;
+            max-width: 0;
+            -webkit-transition: opacity 0.25s, max-width 0.45s;
+            -moz-transition: opacity 0.25s, max-width 0.45s;
+            -o-transition: opacity 0.25s, max-width 0.45s;
+            transition: opacity 0.25s, max-width 0.45s; /* Duration fixed since we animate additional hidden width */
+        }
+
+        .has-spinner.active {
+            cursor: progress;
+        }
+
+            .has-spinner.active .fa-spinner {
+                opacity: 1;
+                max-width: 50px; /* More than it will ever come, notice that this affects on animation duration */
+            }
+    </style>
+
+
+    <script>
+
+        function HandleOnClose() {
+
+            setCookie(".ASPXAUTHNEW", "cookievalue", -1);
+            $.removeCookie(".ASPXAUTHNEW");
+            $("#SessionGUID").val('');
+        }
+
+        function setCookie(c_name, value, expiredays) {
+            var exdate = new Date();
+            exdate.setDate(exdate.getDate() + expiredays);
+            document.cookie = c_name + "=" + escape(value) + ";expires=" + exdate.toGMTString();
+        }
+
+        $(document).ready(function () {
+
+
+            InvokeRejectWindow(true);
+
+            $('#timeout').on('hidden.bs.modal', function () {
+                window.location.reload();
+            })
+
+            $.get("https://www.browardclerk.org//Web2/Product/GetCartCount/?sessionGUID=" + getSessionGuid(), function (data) {
+
+                var CartCount;
+                if (parseInt(JSON.parse(JSON.parse(data)))) {
+                    CartCount = parseInt(JSON.parse(data));
+                }
+                else {
+                    CartCount = 0;
+                }
+                $('#lblCartCount').html(CartCount);
+                //alert(getSessionGuid());
+            });
+        });
+
+
+        function InvokeRejectWindow(closeCookieParam) {
+            $.reject({
+                reject: {
+                    safari: '5.0', // Apple Safari
+                    chrome: '24', // Google Chrome
+                    firefox: '34', // Mozilla Firefox
+                    msie: '9', // Microsoft Internet Explorer
+                    opera: true, // Opera
+                    konqueror: true, // Konqueror (Linux)
+                    unknown: true // Everything else
+                },
+                display: ['msie', 'chrome', 'safari', 'firefox'], // What browsers to display and their order (default set below)
+                browserShow: true, // Should the browser options be shown?
+                browserInfo: { // Settings for which browsers to display
+                    msie: {
+                        text: 'Internet Explorer',
+                        url: 'http://windows.microsoft.com/en-us/internet-explorer/download-ie/'
+                    },
+                    chrome: {
+                        // Text below the icon
+                        text: 'Google Chrome',
+                        // URL For icon/text link
+                        url: 'http://www.google.com/chrome/',
+                        // (Optional) Use "allow" to customized when to show this option
+                        // Example: to show chrome only for IE users
+                        // allow: { all: false, msie: true }
+                    },
+                    safari: {
+                        text: 'Safari',
+                        url: 'http://www.apple.com/safari/download/'
+
+                    },
+                    firefox: {
+                        text: 'Mozilla Firefox',
+                        url: 'http://www.mozilla.com/firefox/'
+                    }
+                },
+
+                // Pop-up Window Text
+                header: 'Browser Upgrade Recommended!',
+
+                paragraph1: 'Our website has detected you are using an outdated browser ' +
+                    'that will prevent you from accessing certain features. ' +
+                    'An update is not required, but it is strongly recommended ' +
+                    'to improve your browsing experience. You may also try using another browser.',
+
+                paragraph2: 'Use the links below to upgrade or install a browser.',
+
+                // Allow closing of window
+                close: true,
+
+                // Message displayed below closing link
+                closeMessage: 'By closing this window you acknowledge your experience ' +
+                    'may be degraded.',
+                closeLink: 'CLOSE',
+                closeURL: '#',
+
+                // Allows closing of window with esc key
+                closeESC: true,
+
+                // Use cookies to remmember if window was closed previously?
+                closeCookie: closeCookieParam,
+                // Cookie settings are only used if closeCookie is true
+                cookieSettings: {
+                    // Path for the cookie to be saved on
+                    // Should be root domain in most cases
+                    path: '/',
+                    // Expiration Date (in seconds)
+                    // 0 (default) means it ends with the current session
+                    expires: 0
+                },
+
+                // Path where images are located
+                imagePath: '/Web2/images/',
+                // Background color for overlay
+                overlayBgColor: '#000',
+                // Background transparency (0-1)
+                overlayOpacity: 0.6,
+
+                // Fade in time on open ('slow','medium','fast' or integer in ms)
+                fadeInTime: 'fast',
+                // Fade out time on close ('slow','medium','fast' or integer in ms)
+                fadeOutTime: 'fast',
+
+                // Google Analytics Link Tracking (Optional)
+                // Set to true to enable
+                // Note: Analytics tracking code must be added separately
+                analytics: false
+            }); // Customized Text
+
+            return false;
+        }
+        function English() {
+            $('#langEn').html('English <i class="fa fa-check"></i>');
+            $('#langEs').html('Spanish');
+            $('#langFr').html('French');
+            document.location.href = 'https://translate.google.com/translate?hl=en&sl=auto&tl=es&u=http%3A%2F%2Fwww.browardclerk.org/web2/CaseSearch/';
+        }
+        function Spanish() {
+            $('#langEs').html('Spanish <i class="fa fa-check"></i>');
+            $('#langEn').html('English');
+            $('#langFr').html('French');
+            document.location.href = 'https://translate.google.com/translate?hl=en&sl=auto&tl=es&u=http%3A%2F%2Fwww.browardclerk.org/web2/CaseSearch/';
+        }
+        function French() {
+            $('#langFr').html('French <i class="fa fa-check"></i>');
+            $('#langEn').html('English');
+            $('#langEs').html('Spanish');
+            document.location.href = 'https://translate.google.com/translate?hl=en&sl=auto&tl=fr&u=http%3A%2F%2Fwww.browardclerk.org/web2/CaseSearch/';
+        }
+    </script>
+
+</head>
+<body onload="CheckSession();" onbeforeunload="HandleOnClose();">
+    <div>
+        <a class="sr-only sr-only-focusable" href="#maincontent">Follow this link to skip to the main content</a>
+    </div>
+    <div class="wrapper">
+        <!--=== Header ===-->
+        <div style="background-image:linear-gradient(#C9DAE2,#fff);" class="header" role="main">
+            <div class="container">
+                <div class="col-md-3" style="margin-top:18px;margin-bottom:10px;">
+                    <!-- Logo -->
+                    <div id="dvLogo" class="no-padding">
+                        <a class="hidden-print" href="/Web2/CaseSearchECA/Index/?AccessLevel=ANONYMOUS" tabindex="-1" role="presentation">
+                            <img class="hidden-xs hidden-sm " src="/Web2/Content/assets/img/Website/ClerkBannerPicture.png" alt="Clerk Banner Logo" />
+                        </a>
+                        <a class="hidden-print" href="/Web2/CaseSearchECA/Index/?AccessLevel=ANONYMOUS" tabindex="-1" role="presentation">
+                            <img class="img-responsive hidden-md hidden-lg " src="/Web2/Content/assets/img/Website/ClerkBannerPicture.png" alt="Clerk Banner Logo" />
+                        </a>
+                        <img class="img-responsive visible-print-block" src="/Web2/Content/assets/img/Website/ClerkBannerPicture.png" alt="Clerk Banner Logo" />
+                    </div>
+                    <!-- End Logo -->
+                </div>
+                <div class="col-md-9">
+                    <!-- Topbar -->
+                    <div class="topbar" style="margin-top: -7px">
+
+
+                            <ul class="loginbar pull-right">
+                                <li id="mnuMessages" class="hoverSelector hidden hidden-print">
+                                    <i class="fa fa-envelope" style="color:green"></i>
+                                    <a href="https://www.browardclerk.org//Web2/Services/Notifications/?serviceCode=" id="ActNotifCount" target="_self" class="link-news hidden" style="color:green">Messages</a>
+                                </li>
+                                <li id="gapMessages" class="topbar-devider hidden"></li>
+                                <li id="mnuWelcome" class="hoverSelector hidden hidden-print">
+                                    <i class="fa fa-user"></i>
+                                    Welcome, <a href="/Web2/Account/MyAccount/" id="lblUserName" target="_self" class="link-news">Guest</a>
+                                </li>
+                                <li id="gapWelcome" class="topbar-devider hidden"></li>
+                                <li class="hoverSelector hidden-print">
+                                    <i class="fa fa-home"></i>
+                                    <a href="https://www.browardclerk.org">
+                                        Home
+                                    </a>
+                                </li>
+                                <li id="gapLogin1" class="topbar-devider"></li>
+                                <li class="hoverSelector hidden-print">
+                                    <i style="" class="fa fa-search"></i><a href="https://www.browardclerk.org//Web2/eReceipt">&nbsp;&nbsp;Receipt Lookup</a>
+                                </li>
+                                <li id="gapLogin2" class="topbar-devider"></li>
+                                <li id="LoginLogOut" class="hoverSelector hidden-print">
+                                    <i class="fa fa-sign-in"></i>
+                                    <a id="aLoginLogOut" href="https://www.browardclerk.org//Web2/Account/Index/">
+                                        My Account
+                                    </a>
+                                </li>
+
+                                <li id="gapCart" class="topbar-devider hidden"></li>
+                                <li id="liCart" class="hoverSelector hidden-print hidden">
+                                    <a title="Click to view your shopping cart" id="lnkCart" href="#" onclick="GetShoppingCart()" style="position: relative;" class="icon-shopping-cart">
+                                        <span><img style="height: 20px; width: 20px;text-decoration: none !important" alt="Shopping Cart" src="/Web2/Content/assets/img/Website/Cart_New.png" /></span>
+
+                                        <span id="lblCartCount" class="badge rounded" style="background:#1b6ec2;color:#FFF; !important; margin-top:0px !important; padding: 5px; !important;  left:0px; top:0px; right: 0px; z-index:1000;">
+                                            0
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+                    <!-- End Topbar -->
+                </div>
+                <!-- Toggle get grouped for better mobile display -->
+                <button style="color:white;" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu&nbsp;
+                    <span class="fa fa-bars"></span>
+                </button>
+                <!-- End Toggle -->
+            </div><!--/end container-->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <div class="collapse navbar-collapse navbar-responsive-collapse" style="margin-top: 20px;" role="navigation">
+                <div class="container">
+                        <ul class="nav navbar-nav">
+                            <li id="mnuServices" class="dropdown hidden">
+                                <a href="/Web2/Services/MyServices/" class="hidden-xs hidden-sm hidden-md dropdown-toggle" tabindex="0">
+                                    My eServices
+                                </a>
+                                <a href="javascript:void(0);" class="hidden-lg dropdown-toggle" data-toggle="dropdown" tabindex="0">
+                                    My eServices
+                                </a>
+                                <ul id="servicesMenu" class="dropdown-menu">
+                                    <li class="hidden-lg"><a style="" href="/Web2/Services/MyServices" tabindex="0">&nbsp;My eServices</a></li>
+                                </ul>
+                            </li>
+
+                            <li id="mnuSearches" class="dropdown hidden">
+                                <a href="javascript:void(0);" class="hidden-xs hidden-sm hidden-md dropdown-toggle" tabindex="0">
+                                    Case Search
+                                </a>
+                                <a href="javascript:void(0);" class="hidden-lg dropdown-toggle" data-toggle="dropdown" tabindex="0">
+                                    Case Search
+                                </a>
+                                <ul id="searchesMenu" class="dropdown-menu">
+                                    <li class="hidden-lg"><a style="" href="javascript:void(0);" tabindex="0">&nbsp;Case Search</a></li>
+                                    <li><a style="" href="/Web2/CaseSearchECA/Index/?AccessLevel=ANONYMOUS" tabindex="0">Public Search</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li id="mnuSearch">
+                                <a href="/Web2/CaseSearchECA/Index/?AccessLevel=ANONYMOUS" tabindex="0">
+                                    Case Search
+                                </a>
+                            </li>
+
+                            <!-- eServices -->
+                            <li id="mnuPremiumServicves" class="dropdown">
+                                <a href="/Web2/Services/PremiumServices" class="hidden-xs hidden-sm hidden-md dropdown-toggle" tabindex="0">
+                                    eServices
+                                </a>
+                                <a href="javascript:void(0);" class="hidden-lg dropdown-toggle" data-toggle="dropdown" tabindex="0">
+                                    eServices
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="hidden-lg"><a style="" href="/Web2/Services/PremiumServices" tabindex="0">&nbsp;eServices</a></li>
+                                    <li><a class="dropdown-item" href="/Web2/Services/Aboutetrack" tabindex="0"><img style="width: 25px; height: 25px;" alt="" src="/Web2/Content/assets/img/Website/eTrackIcon.png"> About eTrack</a></li>
+                                        <li><a class="dropdown-item" href="/Web2/Services/AboutAPI" tabindex="0"><img style="width: 25px; height: 25px;" alt="" src="/Web2/Content/assets/img/Website/APIIcon.png"> About Commercial Data Service</a></li>
+                                                                                                                <li><a class="dropdown-item" href="/Web2/Services/AboutAdvancedSearch" tabindex="0"><img style="width: 25px; height: 25px;" alt="" src="/Web2/Content/assets/img/Website/AdvancedSearchIcon.png"> About Advanced Search Service</a></li>
+                                                                            <li><a class="dropdown-item" href="/Web2/Services/AboutAOR" tabindex="0"><img style="width: 25px; height: 25px;" alt="" src="/Web2/Content/assets/img/Website/AORIcon.png"> About Attorney of Record</a></li>
+                                                                            <li><a class="dropdown-item" href="/Web2/Services/AboutRegUser" tabindex="0"><img style="width: 25px; height: 25px;" alt="" src="/Web2/Content/assets/img/Website/RegUserIcon.png"> About Registered User</a></li>
+                                </ul>
+                            </li>
+                            <!-- End eServices -->
+
+
+                        </ul>
+                </div><!--/end container-->
+            </div><!--/navbar-collapse-->
+        </div>
+        <!--=== End Header ===-->
+        <div>
+<?xml version="1.0" encoding="utf-16"?><!--Start/End Dates: 20240926 - 20241004-->
+         
+                <div name="Holiday - Rosh Hashanah">
+                  <div style="height:26px;margin-top:-2;padding-top:0;background-image:url(https://www.browardclerk.org/Content/assets/img/Website/BannerImages/RoshHashanah.png);background-position-y:top;background-position-x:center">
+                  </div>
+                
+                <div class="text-center" style="margin-bottom: 0px;margin-top: 0px; background-color:#fefdbc">
+                     <font style="height:25px;font-size:18px;margin:0"><strong>The Clerk's Office will be closed on Thursday, October 3rd, for Rosh Hashanah</strong></font>
+                  </div>
+                
+                <hr style="margin-top:0;margin-bottom:0;border-top: 1px solid #eee;">
+                </div>
+                
+      <!--
+          Start/End Dates: 20240924 - 20240929-->
+         
+          <div name="Scheduled System Maintenance Unavailable">
+             <div style="padding-top:2px;padding-bottom:0px;margin-bottom:0;margin-bottom:0px" class="alert alert-danger text-center">
+                <i class="fa fa-2x fa-warning" style="font-size:17px"></i>
+                <font style="color:#000;font-size:16px;margin:0">Notice – Due to scheduled system maintenance, all online services will be intermittently unavailable from Friday 09/27/24 to Saturday 09/28/24. </font>
+            </div>
+          </div>
+          
+      <!--
+          Start/End Dates: 20240906 - 20241012-->
+         
+          <div name="Evidence Sales">
+             <div style="padding-top:4px;padding-bottom:0px;margin-bottom:0;margin-bottom:0px" class="alert alert-info text-center">
+                <i class="fa fa-2x fa-warning" style="font-size:18px"></i>
+                <font style="color:#090909;font-size:18px;margin:0">The Clerk of Courts is currently offering the sale of <a href="/Miscellaneous/EvidenceSales#ForSale">2 vehicles</a>.</font>
+             </div>
+          </div>
+          
+      <!--
+          Start/End Dates: 20200313 - 99991231-->
+         
+            <div name="CoronaVirus Update - Marquee">
+                      <div class="alert alert-danger" style="padding-top:4px;margin-bottom:0px;margin-bottom:0px;padding-bottom:0px;color: #caca48;background-color: #ff0;border-color: #ecec67;">
+                      
+                          <div class="text-center" style="line-height: 1;">                         
+                                                  
+                          <p style="font-size: 20px;margin: 5px 5px 10px;">
+                          <strong>Is your court hearing being held via Zoom?  Learn more about <a title="Remote Hearing Instructions On How to Use Zoom" href="/GeneralInformation/Miscellaneous#RemoteHearingsbyZoom" target="_blank">Remote Court Hearings by Zoom</strong></a>
+                          </p>                                                                                                                       
+                                                  
+                         </div>
+                   </div>
+            </div>
+        
+      
+
+
+
+
+        </div>
+        <div class="margin-bottom-5">
+            <div id="dvBrowserAlert" class="alert-warning text-center hidden">
+                <i class="fa fa-warning" style="margin-top:5px"></i><p>&nbsp;Browser Upgrade Recommended!</p>&nbsp; <a href='#' onclick="InvokeRejectWindow(false);"><p class="ui-button-text-icon-primary">Learn More</p>&nbsp;<i class="fa fa-angle-double-right"></i></a>
+            </div>
+        </div>
+
+        <div id="divSpin" class="row align-center col-md-12">
+
+        </div>
+
+        <div class="container body-content">
+            <div id="maincontent" tabindex="-1"></div>
+            <!--<input id="sessionButton" type="button" value="Session Test Button" onclick="CheckSession('Session["UserId"]');">-->
+            
+
+
+ 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+
+<body>
+
+    <div class="row" style="margin-bottom:50px;margin-top:50px">
+        <div class="col-md-8 col-md-offset-2 text-center">
+            <div class="error-v1">
+                <h1 class="text-center" style="font-size:40px"><strong>Page Not Found</strong></h1>
+                <br>
+                <h2>We can't find the page you're looking for. You will be redirected back home.</h2>
+                <br>
+                <a class="btn btn-lg btn-success col-mid-2 rounded" href="/Web2/">Back Home</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script>
+    window.setTimeout(function () {
+       window.location.replace('https://www.browardclerk.org//Web2');
+    }, 10000);
+</script>
+
+
+        </div>
+
+        <!--=== Begin Footer ===-->
+        <!--=== Begin Footer ===-->
+        <div class="footer-default">
+            <div style="background: #3e4753" class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 md-margin-bottom-30">
+                            <div class="headline">
+                                <h3>Brenda D. Forman</h3>
+                            </div>
+                            <div>
+                                <p>
+                                    <h4>Clerk of Court</h4>
+                                    Broward County<br />
+                                    17th Judicial Circuit<br />
+                                </p>
+                                <ul class="list-unstyled link-list">
+                                    <li><a href="/AboutUs/AboutTheOffice#AboutTheClerk">More About the Clerk</a><i class="fa fa-angle-right"></i></li>
+                                </ul>
+                                <p>
+                                    <a href="https://www.facebook.com/browardclerkofcourts/"><img style="width:auto;height:auto" alt="Find us on Facebook" src="https://www.browardclerk.org/Content/Assets/img/Website/FindUsOnFacebook.png" /> </a>
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 md-margin-bottom-30">
+                            <div class="headline"><h3>Connect with Us</h3></div>
+                            <ul class="list-unstyled link-list">
+                                <li><a href="/AboutUs/HoursAndLocations#CourthouseLocations">Courthouse Locations</a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="/AboutUs/AboutTheOffice#ContactUs">Contact Us</a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="/GeneralInformation/Miscellaneous#DisclaimerAgreement">Disclaimer Agreement</a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="/AboutUs/HoursAndLocations#ClerkDirectory">Clerk Directory</a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="/Miscellaneous/ClerkSurveys">Tell Us What You Think</a> <i class="fa fa-angle-right"></i></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 md-margin-bottom-30">
+                            <div class="headline"><h3>Accessibility &amp; Support</h3></div>
+                            <ul class="list-unstyled link-list">
+                                <li><a href="/GeneralInformation/Miscellaneous#ADA">ADA Notice</a><i class="fa fa-wheelchair"></i></li>
+                                <li><i class="fa fa-print"></i><a href="javascript:window.print();">Print</a></li>
+                                <li><a href="https://www.browardclerk.org//Web2/CaseSearchECA/FrequentQuestions/">Frequently Asked Questions</a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="https://www.browardclerk.org//Web2/CaseSearchECA/Glossary/">Glossary Of Terms</a><i class="fa fa-angle-right"></i></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 map-img md-margin-bottom-30">
+                            <div class="headline"><h3>Main Courthouse Location</h3></div>
+                            <address class="md-margin-bottom-30">
+                                <p>201 SE 6th Street</p>
+                                Fort Lauderdale <br />
+                                Florida, US 33301<br />
+                                Phone: (954) 831-6565 <br /><br /><br />
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="border-color: rgba(178, 180, 183, 0.41);padding-top: 0;border-width: 2px 0 0 0;border-style: solid;" class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p style="text-align: center; text-transform: uppercase;">
+                                <a href="/GeneralInformation/Miscellaneous#PublicRecordsCustodian">Public Records Custodian</a><i class="fa fa-angle-right"></i> <em> Pursuant to 119.12(2), F.S.</em>
+                            </p>
+                            <p class="text-center text-uppercase">
+                                <a href="/GeneralInformation/Miscellaneous#JudicialRecordRule">Public Access to Judicial Records</a><i class="fa fa-angle-right"></i> <em>Pursuant To Rule 2.420</em>
+                            </p>
+                            <p style="text-align: center;">
+                                Under Florida law, email addresses are public records. If you do not want your email address released in response to a public records request, do not send electronic mail to this entity.<br />Instead, contact this office by phone or in writing.<br />&copy; 2024 - All rights reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--=== End Footer ===-->
+
+        <noscript>
+            <div class="noscriptmsg">
+                <div class="text-center">
+                    <div class="text-center">
+                        <br /><br /><br />This website requires javascript to be enabled.  Please enable javascript in your browser.<br /><br /><br />
+                        <a href="http://enable-javascript.com/">Click here for instructions on how to enable javascript.</a>
+                    </div>
+                </div>
+            </div>
+        </noscript>
+    </div>
+
+
+
+    <input type="hidden" id="hdnLoggedIn" name="hdnLoggedIn" value="" />
+    <input type="hidden" id="hdnCartCount" name="hdnCartCount" value="0" />
+    <input type="hidden" id="SessionGUID" name="SessionGUID" value="0" />
+    
+    <script>
+        var hdnLoggedIn = $("#hdnLoggedIn").val();
+
+        //var jsonDataLocal = JSON.parse(localStorage.getItem('Cart'));
+        //if (!jsonDataLocal) {
+        //    jsonDataLocal = [];
+        //}
+        //if (!jsonDataLocal.length)
+        //{
+        //    $("#liCart").hide();
+        //}
+        //$.each(jsonDataLocal, function (key, item) {
+        //    if (item) {
+        //        //if (!item.isUserRequired || hdnLoggedIn) {
+        //            var cartObject = JSON.stringify(jsonDataLocal);
+        //            localStorage.setItem('Cart', cartObject);
+
+        //            $("#lblCartCount").html(jsonDataLocal.length);
+        //        //}
+        //    }
+        //});
+
+
+
+        if (hdnLoggedIn) {
+            $('#BarNum').removeClass('hidden').show();
+            $('#mnuServices').removeClass('hidden').show();
+            $('#mnuSearches').removeClass('hidden').show();
+            $('#mnuSearch').addClass('hidden').hide();
+            $('#mnuSearchECA').removeClass('hidden').show();
+            $('#mnuWelcome').removeClass('hidden').show();
+            $('#mnuMessages').removeClass('hidden').show();
+            $('#gapMessages').removeClass('hidden').show();
+            $('#gapWelcome').removeClass('hidden').show();
+            //$('#LoginLogOut').removeClass('hidden').show();
+            //$('#gapLogin').removeClass('hidden').show();
+            //  $('#mnuSearch').addClass('hidden').hide();
+            $('#mnuOLServices').removeClass('hidden').show();
+            $('#dvAddUpdateTracker').show();
+            $("#LoginLogOut").html("<i class='fa fa-sign-out'></i><a id='aLoginLogOut' href='https://www.browardclerk.org//Web2/Account/LogOut/'>&nbsp;&nbsp;Logout</a>");
+            UpdateCartCount();
+
+            var notifData = JSON.parse();
+
+            if (notifData.length > 0) {
+                $("#ActNotifCount").removeClass('hidden').show();
+                $("#ActNotifCount").html(" Messages (" + notifData.length + ")");
+                $("#ActNotifCount1").removeClass('hidden').show();
+                $("#ActNotifCount1").html(" Messages (" + notifData.length + ")");
+            }
+            BuildSubMenu();
+        } else {
+            $('#BarNum').addClass('hidden').hide();
+            $('#mnuServices').addClass('hidden').hide();
+            $('#mnuSearches').addClass('hidden').hide();
+            $('#mnuSearchECA').addClass('hidden').hide();
+            $('#mnuSearch').removeClass('hidden').show();
+            $('#mnuWelcome').addClass('hidden').hide();
+            $('#mnuMessages').addClass('hidden').hide();
+            $('#gapMessages').removeClass('hidden').hide();
+            $('#gapWelcome').addClass('hidden').hide();
+            //$('#LoginLogOut').addClass('hidden').hide();
+            //$('#gapLogin').addClass('hidden').hide();
+            //  $('#mnuSearch').removeClass('hidden').show();
+            $('#mnuOLServices').addClass('hidden').hide();
+            $('#dvAddUpdateTracker').hide();
+            $("#LoginLogOut").html("<i class='fa fa-sign-in'></i><a id='aLoginLogOut' href='https://www.browardclerk.org//Web2/Account/Index/'>&nbsp;&nbsp;My Account</a>");
+            //Remove session and cookie data
+            $.removeCookie(".ASPXAUTHNEW");
+            $("#SessionGUID").val('');
+            UpdateCartCount();
+        }
+
+        
+        $("#btnBarNum").on('click', function () {
+
+            var BarNumber = $('#txtBarNum').val();
+            SetBarNumber(BarNumber);
+        });
+
+        $("#btnResetBarNum").on('click', function () {
+            SetBarNumber('ORIG');
+            location.reload();
+            location.href = "https://www.browardclerk.org//Web2/CaseSearchECA/Index/?AccessLevel=AOR";
+        });
+
+
+
+        function SetBarNumber(BarNumber) {
+            if (BarNumber != "" && BarNumber != "undefined" && BarNumber != undefined) {
+                $.get("https://www.browardclerk.org//Web2/Services/SetBarNumber?BarNumber=" + BarNumber, function (data) {
+
+                    if (JSON.parse(JSON.parse(data))) {
+                        BarNumber = JSON.parse(data);
+                    }
+                    else {
+                        BarNumber = 0;
+                    }
+
+                    if (BarNumber) {
+                        toastr.info("Bar Number is over-ridden !!!");
+                        location.href = "https://www.browardclerk.org//Web2/CaseSearchECA/Index/?AccessLevel=AOR";
+                    }
+                    else {
+                        toastr.error("Bar Number can't be over-ridden !!!");
+                    }
+                });
+            }
+        }
+
+        function BuildSubMenu() {
+            $('#servicesMenu').empty();
+            $('#searchesMenu').empty();
+            $.get("https://www.browardclerk.org//Web2/Services/GetUserServices?", function (data) {
+                var userServicesData = data;
+                var menuItems = "";
+                $.each(userServicesData, function (key, item) {
+                    menuItems = menuItems + "<li><a href='https://www.browardclerk.org//Web2" + item.ServiceURL + "'><img style='width: 25px; height: 25px;' alt='" + item.ServiceName + "' src='https://www.browardclerk.org//Web2/Content/assets/img/Website/" + item.ServiceImage + ".png'/> " + item.ServiceName + "</a></li>";
+                });
+                $('#servicesMenu').append(menuItems);
+            });
+            setTimeout(
+      function () {
+          //do something special
+      }, 5000);
+
+            $.get("https://www.browardclerk.org//Web2/Services/GetUserSearchServices?", function (data) {
+                var userServicesData = data;
+                var searchMenuItems = '<li><a style="" href="https://www.browardclerk.org//Web2/CaseSearchECA/Index/?AccessLevel=ANONYMOUS">&nbsp; <span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;Public</a></li>';
+                $.each(userServicesData, function (key, item) {
+                    var serviceCode = item.ServiceCode;
+                    var serviceURL = item.ServiceURL;
+                    searchMenuItems = searchMenuItems + "<li><a href='https://www.browardclerk.org//Web2" + serviceURL + "'><img style='width: 25px; height: 25px;' alt='" + item.ServiceName + "' src='https://www.browardclerk.org//Web2/Content/assets/img/Website/" + item.ServiceImage + ".png'/> " + item.ServiceName + "</a></li>";
+                });
+                $('#searchesMenu').append(searchMenuItems);
+            });
+
+
+        }
+        function guid() {
+            function s4() {
+                return Math.floor((1 + Math.random()) * 0x10000)
+                    .toString(16)
+                    .substring(1);
+            }
+
+            return s4() + s4() + '-' + s4() + '-' + s4() + '-' +
+                s4() + '-' + s4() + s4() + s4();
+        }
+
+        function getSessionGuid() {
+            var SessionGUID = localStorage.getItem('SessionGUID');
+            if (!SessionGUID) {
+                SessionGUID = guid();
+                localStorage.setItem('SessionGUID', SessionGUID);
+                $("#SessionGUID").val(SessionGUID);
+            }
+            return SessionGUID;
+        }
+
+        function UpdateCartCount() {
+
+            $.post('https://www.browardclerk.org//Web2/ShoppingCart/GetCartCount/?sessionGUID=' + getSessionGuid(), {},
+            function (data, status) {
+                var CartCount;
+                if (data != "Error") {
+                    if (parseInt(JSON.parse(JSON.parse(data)))) {
+                        CartCount = parseInt(JSON.parse(data));
+                        $('#liCart').removeClass('hidden').show();
+                        $('#gapCart').removeClass('hidden').show();
+                    } else {
+                        $('#liCart').addClass('hidden').hide();
+                        $('#gapCart').addClass('hidden').hide();
+                        CartCount = 0;
+                    }
+                    $('#lblCartCount').html(CartCount);
+                } else {
+                    toastr.error("Some error happened while deleting this item.");
+                }
+            }).done(function () {
+            });
+            //var jsonDataLocal = JSON.parse(localStorage.getItem('Cart'));
+            //if (!jsonDataLocal) {
+            //    jsonDataLocal = [];
+            //}
+            //$.each(jsonDataLocal, function (key, item) {
+            //    if (item) {
+            //        //if (!item.isUserRequired || hdnLoggedIn) {
+            //                var cartObject = JSON.stringify(jsonDataLocal);
+            //                localStorage.setItem('Cart', cartObject);
+
+            //                $("#lblCartCount").html(jsonDataLocal.length);
+            //        //}
+            //    }
+            //});
+
+        }
+
+        function GetShoppingCart() {
+
+            $('#lnkCart')[0].href = 'https://www.browardclerk.org//Web2/Product/ShoppingCart/?sessionGUID=' + getSessionGuid();
+
+        }
+    </script>
+
+
+    <noscript>
+        <div class="noscriptmsg">
+            <div class="text-center">
+                <b>
+                    <br /><br /><br />This website requires javascript to be enabled.  Please enable javascript in your browser.<br /><br /><br />
+                    <a href="http://enable-javascript.com/">Click here for instructions on how to enable javascript.</a>
+                </b>
+            </div>
+        </div>
+    </noscript>
+
+    <!-- Google reCaptcha -->
+    <script src='https://www.google.com//recaptcha/api.js?onload=CaptchaCallback&render=explicit' async defer></script>
+
+
+
+    <!-- Modals used throughout the site-->
+    <!-- Modal - How To Register For New Account-->
+    <div class="modal fade rounded" id="HowToRegisterForNewAccountModal" tabindex="-1" role="dialog" aria-labelledby="HowToRegisterForNewAccountModal" aria-hidden="true">
+        <div class="modal-dialog rounded" role="document">
+            <div class="modal-content rounded">
+                <div class="modal-header bg-info rounded">
+                    <button type="button" class="close rounded" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+                    <h4 class="modal-title rounded">How do I register for a new account?</h4>
+
+                </div>
+                <div class="">
+                    <div class="modal-body">
+
+                        <div class="modal-header"><b>Step 1</b></div>
+                        <div class="modal-body">When you are on the <i>My Account</i> page, click on the <b>Register Now</b> button and complete the registration form. Read and accept the Terms and Conditions and click <b>Register</b>.</div>
+                        <div class="modal-header"><b>Step 2</b></div>
+                        <div class="modal-body">
+                            <p>You will then receive an email at the address you provided during the registration process. This email contains a link to complete your new account registration. After clicking the link in the email you are ready to log in.</p>
+                            <p><b>Note:</b> If you do not receive the email, look in your spam and junk email folders. If you have a spam filter activated, remove the email address noreply@browardclerk.org</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer bg-info rounded">
+                    <button data-dismiss="modal" class="btn-u btn-u-default rounded" type="button">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal - Timeout-->
+
+
+
+    <div class="modal fade rounded" id="timeout" tabindex="-1" role="dialog" aria-label="Session Timeout Warning" aria-hidden="true">
+        <div class="modal-dialog rounded" role="document">
+            <div class="modal-content rounded">
+                <div class="modal-header bg-info rounded">
+                    <button type="button" class="close rounded" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title rounded">Session timeout warning</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-header">
+                        <strong>Your session will expire soon. Select "Continue session" to extend your session.</strong>
+                    </div>
+                    <div>
+                        <button data-dismiss="modal" class="btn-u btn-u-default rounded btn-block" type="button"><strong>Continue session</strong></button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--Begin Modal - _MODAL_Message.cshtml-->
+
+
+
+
+
+
+
+
+
+
+    <!--End Modals-->
+
+
+
+<!--Begin Modal - _MODAL_MaintenanceMessage.cshtml-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--End Modals-->
+
+
+
+ 
+
+</body>
+</html>
