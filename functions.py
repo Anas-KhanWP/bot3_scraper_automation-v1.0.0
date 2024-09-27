@@ -15,6 +15,8 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
+api_key = "CAP-B5AF60896E5D3460063F4148663FAD01"
+
 def bot_setup(headless: bool = False):
     """_This function is used to setup the bot_
 
@@ -261,6 +263,184 @@ def scrape_Hillsborough_data(driver, url, case_number):
         # print("No NOA found.")
         return "No NOA Found"
 
+def solve_captcha(url):
+    payload = {
+        "clientKey": api_key,
+        "task": {
+            "type": 'AntiTurnstileTaskProxyLess',
+            "websiteKey": '0x4AAAAAAAR0Af-5MfzdbO3p',
+            "websiteURL": url,
+            "metadata": {
+                "action": ""  # optional
+            }
+        }
+    }
+    # Step 1: Send the captcha to CapSolver
+    res = requests.post("https://api.capsolver.com/createTask", json=payload)
+    resp = res.json()
+    pprint(resp)
+    task_id = resp.get("taskId")
+    
+    # Step 2: Wait for the captcha to be solved
+    while True:
+        sleep(5)  # Wait a few seconds before checking again
+        payload = {"clientKey": api_key, "taskId": task_id}
+        res = requests.post("https://api.capsolver.com/getTaskResult", json=payload)
+        resp = res.json()
+        print("==========================")
+        pprint(resp)
+        print("==========================")
+        status = resp.get("status")
+        
+        if status == 'ready':
+            return resp.get("solution", {}).get('token')
+        
+        if status == 'failed':
+            raise Exception("Failed to solve captcha: " + resp.get('errorCode'))
+
+def scrape_Marion_data(driver, url, case_number):
+    """ 
+    Function to scrape Marion court case data using the case number.
+    
+    Args:
+        driver: Selenium WebDriver instance.
+        url: The URL to visit.
+        case_number: The full case number as a string.
+        api_key: Your CapSolver API key.
+        
+        422022CA000497CAAXXX
+        
+        2:5 [2022] = Year
+    """
+    
+    # Split case number into components
+    year = case_number[2:6]
+    case_num = case_number[8:14]
+    
+    print(f"Year: {year}")
+    print(f"Case Number: {case_num}")
+    
+    go_to_pub = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, "j_idt47:j_idt50")))
+    go_to_pub.click()
+    
+    agree = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, "j_idt42:j_idt44")))
+    agree.click()
+    
+    case_search = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//a[text()='Case Search']")))
+    case_search.click()
+    
+    # Wait for captcha to appear and solve it
+    sleep(5)  # Wait for the page to load
+    current_url = driver.current_url
+    print(f"Current URL: {current_url}")
+    
+    captcha_response = solve_captcha(current_url)
+    
+    # Here, you will need to set the captcha response in the relevant input field
+    captcha_input = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "cf-turnstile-response")))
+    driver.execute_script(f"arguments[0].value='{captcha_response}'", captcha_input)
+    
+    print("executed")
+    
+    WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, 'form:search_tab:year'))).send_keys(year)
+    
+    selector = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, 'form:search_tab:cs_court1')))
+    selector.click()
+    
+    ca_sel = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, 'form:search_tab:cs_court1_2')))
+    ca_sel.click()
+    
+    seq_sel = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, "form:search_tab:seq")))
+    seq_sel.clear()
+    seq_sel.send_keys(case_num, Keys.RETURN)
+    
+    court_type_div = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, "form:docketDataTable1:j_id3")))
+    dropdown = Select(court_type_div)
+    dropdown.select_by_value('15000')
+    
+    # Find the <td> containing "notice of appearance" (ignoring case)
+    notice_td = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((
+            By.XPATH, "//td[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'notice of appearance')]//ancestor::tr"
+        ))
+    )
+    
+    if notice_td:
+        print(notice_td.get_attribute('outerHTML'))  # Debugging: print the outer HTML of the found <td>
+        
+        print("FOUND!!!!!!!!!!!!!!!!!!!!!!")
+        
+        # Extract the numeric part from the last <td> in the same <tr>
+        last_td = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, ".//td[last()]"))
+        )
+        page_count = last_td.text.strip().split('s')[1]  # Get the text from the last <td> and strip any whitespace
+        print(f"Page Count = {page_count}")
+        numeric_part = re.search(r'\d+', page_count)  # Extract the numeric part
+        
+        # Now, find the <a> element with title 'docketImage' within the same <tr> as the <td> found
+        pdf_link = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, ".//a[@title='docketImage']"))
+        )
+        
+        # Click the link
+        pdf_link.click()
+        
+        # Wait for the new tab to open (browser handles should now be more than one)
+        WebDriverWait(driver, 30).until(lambda d: len(d.window_handles) > 1)
+        handles = driver.window_handles
+        print(f"Number of open windows/tabs: {len(handles)}")
+        new_tab_handle = handles[-1]
+        driver.switch_to.window(new_tab_handle)
+        print(f"Switched to the new tab with handle: {new_tab_handle}")
+        print(f"Title of the new tab: {driver.title}")
+    
+        # Extract cookies from the Selenium session and pass them to the requests session
+        session = requests.Session()
+
+        # Get cookies from the Selenium browser and add them to the requests session
+        for cookie in driver.get_cookies():
+            session.cookies.set(cookie['name'], cookie['value'])
+
+        pdf_url = driver.current_url
+        print(pdf_url)
+
+        if numeric_part:
+            # Replace anything after "pages=" in pdf_url with the numeric part
+            new_pdf_url = re.sub(r'(pages=)\d+', r'\1' + numeric_part.group(), pdf_url)
+            print(f"Updated PDF URL: {new_pdf_url}")
+        else:
+            print("No numeric part found in the last <td>.")
+        
+        response = session.get(new_pdf_url)
+
+        # Check if the request was successful
+        if response.status_code == 200:
+            # Save the PDF file
+            with open("downloaded_pdf2.pdf", 'wb') as file:
+                file.write(response.content)
+            print("PDF downloaded successfully!")
+            return "PDF Downloaded"
+        else:
+            print(f"Failed to download PDF. Status code: {response.status_code}")
+            return "Error While Download PDF"
+            
+        driver.execute_script('window.print();')
+        return "PDF Downloaded"
+
+
+    
+    # sleep(10)
+
+    # driver.execute_script("arguments[0].style.display = 'block';", captcha_input)  # Make it visible
+    # captcha_input.send_keys(captcha_response)
+    
+    # Submit the form or continue with your scraping logic
+    # submit_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, "submit-button-id")))  # Replace with actual ID
+    # submit_button.click()
+
+    # Continue with the rest of your scraping logic...
+
         
         
         
@@ -274,7 +454,10 @@ if __name__ == '__main__':
         # if 'broward' in url:
         #     driver.get(url)
         #     pdf_status = scrape_broward_data(driver, url, "CACE-22-005167")
-        if 'hillsclerk' in url:
+        # if 'hillsclerk' in url:
+        #     driver.get(url)
+        #     pdf_status = scrape_Hillsborough_data(driver, url, "292023CC114679A001HC")
+        if 'civitekflorida' in url:
             driver.get(url)
-            pdf_status = scrape_Hillsborough_data(driver, url, "292023CC114679A001HC")
+            pdf_status = scrape_Marion_data(driver, url, "422022CA000497CAAXXX")
         
